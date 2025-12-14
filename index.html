@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Prediction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>📈 Stock Prediction Dashboard</h1>
+
+    <input type="text" id="symbol" placeholder="Enter Stock Symbol (AAPL, TSLA)">
+    <button onclick="getStock()">Predict</button>
+
+    <canvas id="stockChart"></canvas>
+
+    <h3 id="prediction"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
